@@ -5,6 +5,7 @@ Module::Build->new(
     license     => 'perl',
     requires    => {
         'perl' => 5.006,
+        'Hook::Queue' => 0,
     },
     build_requires => {
         'Test::More' => 0,
