@@ -41,9 +41,9 @@ Some module authors will insist on writing their object type checks as:
  die "go away"
    unless UNIVERSAL::ISA( $object, "The::Class:I'm::Willing::To::Deal::With" );
 
-It it this authors opinion that this is wrong, and that the other
-developers should go to their room without their supper until then
-realise that they should be writing:
+It it this authors opinion that this is wrong, and the guilty
+developers should be sent to their room without their supper until
+they realise that they should be writing:
 
  die "go away"
    unless $object->isa( "The::Class:I'm::Willing::To::Deal::With" );
