@@ -2,6 +2,7 @@ Changes
 README
 MANIFEST
 MANIFEST.SKIP
+META.yml
 Build.PL
 Makefile.PL
 lib/Class/Implements.pm
